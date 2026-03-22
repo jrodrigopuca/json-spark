@@ -1,9 +1,9 @@
 {
   "name": "json-spark",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Chrome Extension - JSON Spark",
   "type": "module",
-  "author": "",
+  "author": "jrodrigopuca",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -33,7 +33,7 @@
     "explorer",
     "formatter"
   ],
-  "license": "ISC",
+  "license": "GPL-3.0-only",
   "bugs": {
     "url": "https://github.com/jrodrigopuca/json-spark/issues"
   },
