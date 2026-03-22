@@ -20,14 +20,14 @@ export function useTheme() {
 
 		const handleChange = (e: MediaQueryListEvent | MediaQueryList) => {
 			// Only auto-switch if stored preference is "system"
-			const stored = localStorage.getItem("json-studio-theme");
+			const stored = localStorage.getItem("json-spark-theme");
 			if (!stored || stored === "system") {
 				setTheme(e.matches ? "dark" : "light");
 			}
 		};
 
 		// Initial check
-		const stored = localStorage.getItem("json-studio-theme");
+		const stored = localStorage.getItem("json-spark-theme");
 		if (stored === "dark" || stored === "light") {
 			setTheme(stored);
 		} else {

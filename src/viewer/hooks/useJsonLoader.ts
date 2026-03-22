@@ -216,12 +216,12 @@ export function useJsonLoader() {
 				} else if (!rawJson) {
 					// Only use fallback if we haven't loaded anything yet
 					// Check for Chrome extension message
-					const stored = sessionStorage.getItem("json-studio-data");
+					const stored = sessionStorage.getItem("json-spark-data");
 					if (stored) {
 						const data = JSON.parse(stored);
 						rawJson = data.content;
 						url = data.url || "";
-						sessionStorage.removeItem("json-studio-data");
+						sessionStorage.removeItem("json-spark-data");
 					} else {
 						// Demo data - only if nothing else loaded
 						rawJson = JSON.stringify(

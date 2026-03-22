@@ -15,18 +15,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://jrodrigopuca@github.com/jrodrigopuca/json-studio.git"
+    "url": "git+https://jrodrigopuca@github.com/jrodrigopuca/json-spark.git"
   },
   "keywords": [
     "json",
     "viewer",
-    "chrome-extension"
+    "chrome-extension",
+    "editor",
+    "formatter",
+    "validator",
+    "prettify",
+    "minify",
+    "diff",
+    "merge",
+    "visualization",
+    "schema",
+    "explorer",
+    "formatter"
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jrodrigopuca/json-studio/issues"
+    "url": "https://github.com/jrodrigopuca/json-spark/issues"
   },
-  "homepage": "https://github.com/jrodrigopuca/json-studio#readme",
+  "homepage": "https://github.com/jrodrigopuca/json-spark#readme",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

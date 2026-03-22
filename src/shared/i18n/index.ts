@@ -23,7 +23,7 @@ const locales: Record<Locale, Translations> = { en, es, pt };
 
 // ─── State ─────────────────────────────────────────────────────
 
-const STORAGE_KEY = "json-studio-locale";
+const STORAGE_KEY = "json-spark-locale";
 
 function detectLocale(): Locale {
 	try {

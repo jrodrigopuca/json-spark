@@ -25,7 +25,7 @@ export function StatusBar() {
   const toggleTheme = () => {
     const next = theme === "dark" ? "light" : "dark";
     setTheme(next);
-    localStorage.setItem("json-studio-theme", next);
+    localStorage.setItem("json-spark-theme", next);
   };
 
   const cycleLocale = () => {

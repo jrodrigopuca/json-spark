@@ -129,7 +129,7 @@ Store Zustand centralizado con middlewares `devtools` + `subscribeWithSelector`,
 
 **Persistencia:**
 
-- `SavedJson[]` → `localStorage` con clave `"json-studio-saved"`
+- `SavedJson[]` → `localStorage` con clave `"json-spark-saved"`
 - Límites: máximo 10 documentos, 500KB por documento
 
 ### 2.5 Capa de Hooks (`src/viewer/hooks/`)

@@ -45,7 +45,7 @@ export const useStore = create<AppState>()(
 			...createSavedSlice(...a),
 			...createUiSlice(...a),
 		})),
-		{ name: "json-studio" },
+		{ name: "json-spark" },
 	),
 );
 

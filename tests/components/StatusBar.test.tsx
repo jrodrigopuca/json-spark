@@ -47,7 +47,7 @@ describe("StatusBar", () => {
 	});
 
 	it("renders theme toggle button", () => {
-		localStorage.setItem("json-studio-theme", "dark");
+		localStorage.setItem("json-spark-theme", "dark");
 		renderWithStore(<StatusBar />, { theme: "dark" });
 
 		const themeButton = screen.getByTitle(/switch to light/i);
@@ -55,7 +55,7 @@ describe("StatusBar", () => {
 	});
 
 	it("toggles theme on button click", () => {
-		localStorage.setItem("json-studio-theme", "dark");
+		localStorage.setItem("json-spark-theme", "dark");
 		renderWithStore(<StatusBar />, { theme: "dark" });
 
 		const themeButton = screen.getByTitle(/switch to light/i);

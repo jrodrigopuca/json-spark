@@ -21,7 +21,7 @@ export interface SavedJson {
 
 // ─── LocalStorage helpers ────────────────────────────────────────────────────
 
-const STORAGE_KEY = "json-studio-saved";
+const STORAGE_KEY = "json-spark-saved";
 
 function loadSavedJsons(): SavedJson[] {
 	try {
